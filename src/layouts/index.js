@@ -5,6 +5,18 @@ import styles from "./index.css";
 const {Header, Footer, Content} = Layout;
 
 export default function (props){
+    const menus = [
+        {path: '/', name: '商品'},
+        {path: '/users', name: '用户'},
+        {path: '/about', name: '关于'}
+    ];
+
+    const pathname = props.location.pathname;
+    const selectedKeys = menus.filter(menu => {
+        if (menu.path === '/') return pathname === '/';
+        return pathname.startsWith(menu.path);
+    }).map(menu => menu.path);
+
     return (
         // 上中下布局
         <Layout>
@@ -14,18 +26,14 @@ export default function (props){
                 <Menu
                     theme="dark"
                     mode="horizontal"
-                    defaultSelectedKeys={["2"]}
+                    selectedKeys={selectedKeys}
                     style={{lineHeight: "64px"}}
                 >
-                    <Menu.Item key="1">
-                        <Link to="/">商品</Link>
-                    </Menu.Item>
-                    <Menu.Item key="2">
-                        <Link to="/users">用户</Link>
-                    </Menu.Item>
-                    <Menu.Item key="3">
-                        <Link to="/about">关于</Link>
-                    </Menu.Item>
+                    {menus.map(menu => (
+                        <Menu.Item key={menu.path}>
+                            <Link to={menu.path}>{menu.name}</Link>
+                        </Menu.Item>
+                    ))}
                 </Menu>
             </Header>
             {/* 内容 */}
