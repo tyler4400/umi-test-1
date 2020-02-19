@@ -20,7 +20,7 @@ export function _onCreate() {
     app.use(plugin);
   });
   
-  app.model({ namespace: 'goods', ...(require('D:/WorkPlace/KaiKe8/code/umi-create/src/pages/goods/models/goods.js').default) });
+  app.model({ namespace: 'users', ...(require('D:/WorkPlace/KaiKe8/code/umi-create/src/models/users.js').default) });
   return app;
 }
 

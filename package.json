@@ -5,13 +5,17 @@
     "main": "index.js",
     "scripts": {
         "start": "umi dev",
-        "build": "umi build"
+        "build": "umi build",
+        "ui": "umi ui"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "ant-design-pro": "^2.3.2",
         "antd": "^3.13.0",
-        "axios": "^0.18.0"
+        "axios": "^0.18.0",
+        "react": "latest",
+        "dva": "latest"
     },
     "devDependencies": {
         "umi": "^2.13.3",

@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="897980c7-3bb6-4670-9428-d0e5e6d1bf39" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Tyler4400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intercepter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/.umi/dva.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/.umi/dva.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/.umi/umi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/.umi/umi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -33,6 +43,7 @@
   <component name="ProjectId" id="1Xz2wp2RMN6BK0p4y7ns3n5Kr21" />
   <component name="PropertiesComponent">
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="G:/CSII/Beauty/MyWorkspace/vc/vxhello" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -47,6 +58,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="ts.external.directory.path" value="D:\SoftWare\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkPlace\KaiKe8\code\umi-create\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -173,7 +189,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582034843470</updated>
-      <workItem from="1582034844641" duration="10042000" />
+      <workItem from="1582034844641" duration="20802000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始化 + 整体布局">
       <created>1582084776260</created>
@@ -182,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582084776260</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="菜单设置">
+      <created>1582089500946</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582089500946</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +224,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目初始化 + 整体布局" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目初始化 + 整体布局" />
+    <MESSAGE value="菜单设置" />
+    <option name="LAST_COMMIT_MESSAGE" value="菜单设置" />
   </component>
   <component name="WindowStateProjectService">
     <state width="287" height="577" key="Git.Branch.Popup" />
